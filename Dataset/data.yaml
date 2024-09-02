@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['kurang masak', 'masak', 'mentah', 'terlalu masak']
+
+roboflow:
+  workspace: zah
+  project: palm-oil-33
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zah/palm-oil-33/dataset/2
